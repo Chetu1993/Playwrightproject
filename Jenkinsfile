@@ -4,14 +4,16 @@ agent any
 
 stages {
 
-stage('Build'){steps{echo 'this is the Build step......................'
+stage('Clean'){steps{echo 'this is the Clean step......................'
                     bat 'mvn clean'}}
-stage('Test'){steps {echo 'this is the Deploy step.......................'
-                    bat 'mvn test'}}
-stage('Compile'){steps {echo 'this is the Test step..............'
-                       bat 'mvn compile'}}
-stage('Deploy'){steps {echo 'this is the Release step...................'
-                       bat 'mvn deploy'}}
+stage('Compile'){steps {echo 'this is the Compile step.......................'
+                    bat 'mvn compile'}}
+stage('Test'){steps {echo 'this is the Test step..............'
+                       bat 'mvn test'}}
+stage('Package'){steps {echo 'this is the Package step...................'
+                       bat 'mvn package'}}
+stage('Deploy'){steps {echo 'this is the Deploy step...................'
+                      bat 'mvn deploy'}}
 }
 
   
