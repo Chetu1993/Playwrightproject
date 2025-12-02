@@ -24,7 +24,7 @@
           <distributionManagement>
         <repository>
             <id>release-repo</id>
-            <url>https://github.com/Chetu1993/Playwrightproject.git</url>
+            <url>C:\Reports</url>
         </repository>
     </distributionManagement>
 </project>
