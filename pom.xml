@@ -21,4 +21,10 @@
             </plugin>
         </plugins>
     </build>
+          <distributionManagement>
+        <repository>
+            <id>release-repo</id>
+            <url>https://github.com/Chetu1993/Playwrightproject.git</url>
+        </repository>
+    </distributionManagement>
 </project>
