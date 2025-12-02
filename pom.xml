@@ -24,7 +24,7 @@
           <distributionManagement>
         <repository>
             <id>release-repo</id>
-            <url>C:\maven-repo</url>
+            <url>file:///C:\maven-repo</url>
         </repository>
     </distributionManagement>
 </project>
